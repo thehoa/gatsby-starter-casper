@@ -1,9 +1,9 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your authors.
-  blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Gatsby Casper Starter ahijji", // Site title.
-  siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
+  blogAuthorId: "hoadev", // The default and fallback author ID used for blog posts without a defined author.
+  siteTitle: "Ghi chép của Hòa", // Site title.
+  siteTitleAlt: "Học, học nữa, học mãi :D", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
