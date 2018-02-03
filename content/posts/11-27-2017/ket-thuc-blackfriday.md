@@ -4,7 +4,7 @@ cover: "https://unsplash.it/1280/500/?random?BoldMage"
 author: "hoadev"
 date: "11/27/2017"
 category: "chat"
-slug: "ket-thuc-blackfriday.html"
+slug: "ket-thuc-blackfriday"
 tags:
     - programming
     - funny
