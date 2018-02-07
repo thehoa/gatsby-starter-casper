@@ -1,21 +1,21 @@
-import React from "react";
-import "./AuthorThumbnail.css";
+import React from 'react'
+import './AuthorThumbnail.css'
 
 class AuthorThumbnail extends React.Component {
-  render() {
-    const { avatar, name } = this.props;
+  render () {
+    const { avatar, name } = this.props
     if (avatar && name) {
       return (
         <img
-          className="author-thumb"
+          className='author-thumb'
           src={avatar}
           alt={name}
-          data-pin-nopin="true"
+          data-pin-nopin='true'
         />
-      );
+      )
     }
-    return null;
+    return null
   }
 }
 
-export default AuthorThumbnail;
+export default AuthorThumbnail

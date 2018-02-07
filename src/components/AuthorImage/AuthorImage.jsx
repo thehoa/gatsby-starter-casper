@@ -1,24 +1,24 @@
-import React from "react";
-import "./AuthorImage.css";
+import React from 'react'
+import './AuthorImage.css'
 
 class AuthorImage extends React.Component {
-  render() {
-    const { name, image, url } = this.props.author;
+  render () {
+    const { name, image, url } = this.props.author
     if (image) {
       return (
-        <figure className="author-image">
+        <figure className='author-image'>
           <a
-            className="img"
+            className='img'
             href={url}
             style={{ backgroundImage: `url("${image}")` }}
           >
-            <span className="hidden">{`${name}'s Picture`}</span>
+            <span className='hidden'>{`${name}'s Picture`}</span>
           </a>
         </figure>
-      );
+      )
     }
-    return null;
+    return null
   }
 }
 
-export default AuthorImage;
+export default AuthorImage
